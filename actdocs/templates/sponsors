@@ -24,83 +24,8 @@
   [% END %]
 
   <a href="[% make_uri('donate.html') %]"><img src="[% make_uri('pix')%]/btn_donate_LG.gif" border="0" title="Donate to the summit using PayPal" alt="Donate to the summit using PayPal"></a>
-  [% WRAPPER isponsor
-  img = 'logo_bookingcom_225.png'
-  name = 'Booking.com'
-  url = 'http://booking.com/'
-  %]
-  [% END %]
 
-  [% WRAPPER isponsor
-  img = 'logo-cpanel.png'
-  name = 'cPanel'
-  url = 'https://cpanel.com/'
-  %]
-  [% END %]
-
-  [% WRAPPER isponsor
-  img = 'logo-maxmind.png'
-  name = 'MaxMind'
-  url = 'https://www.maxmind.com/'
-  %]
-  [% END %]
-
-  [% WRAPPER isponsor
-  img = 'logo-fastmail.png'
-  name = 'FastMail'
-  url = 'https://www.fastmail.com/'
-  %]
-  [% END %]
-
-  [% WRAPPER isponsor
-  img = 'logo-ziprecruiter.png'
-  name = 'ZipRecruiter'
-  url = 'https://www.ziprecruiter.com/'
-  %]
-  [% END %]
-
-  [% WRAPPER isponsorbronze
-  name = 'MongoDB'
-  url = 'http://www.mondodb.org/'
-  %]
-  [% END %]
-
-  [% WRAPPER isponsorbronze
-  name = 'Infinity Interactive'
-  url = 'http://www.iinteractive.com/'
-  %]
-  [% END %]
-
-  [% WRAPPER isponsorbronze
-  name = 'OpusVL'
-  url = 'http://www.opusvl.co.uk/'
-  %]
-  [% END %]
-
-  [% WRAPPER isponsorbronze
-  name = 'SureVoIP'
-  url = 'http://www.surevoip.co.uk/'
-  %]
-  [% END %]
-
-  [% WRAPPER isponsorbronze
-  name = 'Perl Services'
-  url = 'http://www.perl-services.de/impressum.html'
-  %]
-  [% END %]
-
-  [% WRAPPER isponsorbronze
-  name = 'Eligo'
-  url = 'http://www.eligo.co.uk/'
-  %]
-  [% END %]
-
-  [% WRAPPER isponsorbronze
-  name = 'Bytemark'
-  url = 'http://www.bytemark.co.uk/'
-  %]
-  [% END %]
-
+<!--
   [% WRAPPER menus/section %]
   <a href="[% make_uri('sponsors.html#partners') %]">Partners</a>
   [% END %]
@@ -120,6 +45,7 @@
   type = 'Venue'
   %]
   [% END %]
+-->
 
 </center>
 
