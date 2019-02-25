@@ -28,11 +28,6 @@
     <li>
     </li>
 
-    [% UNLESS global.request.user %]
-    <li>
-        [% PROCESS menus/subscribe %]
-    </li>
-    [% END %]
     [% IF global.request.user %]
         <li class="dropdown">
             [% PROCESS menus/users %]
