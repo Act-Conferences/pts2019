@@ -12,9 +12,9 @@
 
   <div class="collapse navbar-collapse" id="nav-menu-options">
     <ul class="nav navbar-nav navbar-right">
-      [% PROCESS menus/news %]
+      [% PROCESS menus/donate %]
       [% PROCESS menus/conference %]
-      [% PROCESS menus/talks %]
+      [% PROCESS menus/wiki %]
       [% PROCESS menus/language %]
       [% PROCESS menus/user %]
     </ul>
